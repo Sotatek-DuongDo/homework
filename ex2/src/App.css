@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.wrapper-content {
+  width: 850px;
+  height: 500px;
+  background: whitesmoke;
+  border: 12px;
+  border-radius: 12px;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.deposit-value {
+  width: 408px;
+  height: 56px;
+  border-radius: 5px;
+}
+
+.amount {
+  width: 408px;
+  height: 56px;
+  padding-left: 10px;
+
+  background: #FFFFFF;
+  border: 1px solid #C7C9D9;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.btn {
+  width: 200px;
+  height: 56px;
+  margin-left: 20px;
+  border: none;
+  color: aliceblue;
+
+  background: linear-gradient(91.08deg, #3E89FA 0%, #4E00CC 100%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+
+  font-size: 20px;
+}
+
+.balance-item {
+  margin-top: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
