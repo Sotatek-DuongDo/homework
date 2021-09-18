@@ -2,7 +2,7 @@
   "name": "sample-web3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/sotatek-duongdo/homework",
+  "homepage": "https://sotatek-duongdo.github.io/homework",
   "dependencies": {
     "@ethersproject/contracts": "^5.4.1",
     "@ethersproject/providers": "^5.4.5",

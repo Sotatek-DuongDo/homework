@@ -119,7 +119,7 @@ function App() {
       const contract = new Contract(smartContractAddress, SmartContractABI, library.getSigner());
       let amount = {
         value: convert(deposit, 'eth', 'wei'),
-        gasLimit: 2000000000, // 2 GWei
+        gasLimit: 2000000
       }
       await contract.deposit(amount);
     } catch (error) {
@@ -135,7 +135,7 @@ function App() {
 
     try {
       const contract = new Contract(smartContractAddress, SmartContractABI, library.getSigner());
-      let amount = convert(deposit, 'eth', 'wei');
+      let amount = convert(withdraw, 'eth', 'wei');
       await contract.withdraw(amount);
     } catch (error) {
       console.log(error);
