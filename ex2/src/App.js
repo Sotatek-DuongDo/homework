@@ -27,8 +27,6 @@ function App() {
   useEffect(() => {
     if (library) {
       let stale = false;
-
-      debugger;
       library
         .getBlockNumber()
         .then(blockNumber => {
@@ -115,7 +113,6 @@ function App() {
     }
 
     try {
-      debugger;
       const contract = new Contract(smartContractAddress, SmartContractABI, library.getSigner());
       let amount = {
         value: convert(deposit, 'eth', 'wei'),
